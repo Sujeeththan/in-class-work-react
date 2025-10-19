@@ -13,9 +13,29 @@ function App() {
         email="jey@gmail.com"
         course="MERN Stack Development"
         cohort="Cohort- 03"
-        skills={["HTML", "CSS", "JavaScript", "Reac"]}
+        skills={["HTML", "CSS", "JavaScript", "React"]}
         github="https://github.com/jey"
-        onSelect={() => alert("Profile: Jey’s profile")}
+        onSelect={() => alert("Propose: Jey’s profile")}
+      />
+      <StudentProfile
+        id="2"
+        name="sujeeththan"
+        email="sujeeththan@gmail.com"
+        course="MERN Stack Development"
+        cohort="Cohort- 03"
+        skills={["HTML", "CSS", "JavaScript", "React"]}
+        github="https://github.com/sujeeththan"
+        onSelect={() => alert("Propose: sujeeththan's profile")}
+      />
+       <StudentProfile
+        id="3"
+        name="vijay"
+        email="vijay@gmail.com"
+        course="MERN Stack Development"
+        cohort="Cohort- 03"
+        skills={["HTML", "CSS", "JavaScript", "React"]}
+        github="https://github.com/vijay"
+        onSelect={() => alert("Propose: vijay's profile")}
       />
       <Footer />
     </>
