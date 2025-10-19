@@ -15,7 +15,7 @@ function App() {
         cohort="Cohort- 03"
         skills={["HTML", "CSS", "JavaScript", "React"]}
         github="https://github.com/jey"
-        onSelect={() => alert("Propose: Jey’s profile")}
+        onSelect={() => alert("Props: Jey’s profile")}
       />
       <StudentProfile
         id="2"
@@ -25,7 +25,7 @@ function App() {
         cohort="Cohort- 03"
         skills={["HTML", "CSS", "JavaScript", "React"]}
         github="https://github.com/sujeeththan"
-        onSelect={() => alert("Propose: sujeeththan's profile")}
+        onSelect={() => alert("Props: sujeeththan's profile")}
       />
        <StudentProfile
         id="3"
@@ -35,7 +35,7 @@ function App() {
         cohort="Cohort- 03"
         skills={["HTML", "CSS", "JavaScript", "React"]}
         github="https://github.com/vijay"
-        onSelect={() => alert("Propose: vijay's profile")}
+        onSelect={() => alert("Props: vijay's profile")}
       />
       <Footer />
     </>
